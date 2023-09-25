@@ -35,6 +35,7 @@ A task tracking application that allows you to manage and monitor your tasks. It
 1. Clone this repository in any code editor (I have used Visual Code):
 
    git clone <https://github.com/geekman80/infeedo_assessment.git>
+Branch: main
 
 2. Navigate to the project directory: cd INFEEDO_ASSESSMENT
 3. Installing the dependencies: npm i
