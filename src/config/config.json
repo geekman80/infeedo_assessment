@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "myapp",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "myapp",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "prod_db_user",
+    "password": "prod_db_password",
+    "database": "prod_db_name",
+    "host": "localhost",
+    "dialect": "mysql",
+    "otherConfigOption": "value"
+  }
+}
