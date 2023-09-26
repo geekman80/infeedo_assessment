@@ -49,11 +49,35 @@ Note ! Please modify config/config.json to set the credentials for your database
 The application provides the following API endpoints:
 
 1. POST /api/tasks-> Create a new task.
+Sample Payload: 
+{
+    "title": "Dev Signoff",
+    "description": "Dev Signoff is needed to move feature to QA",
+    "status": "inprogress"
+}
+
 2. PUT /api/tasks/:id-> Update an existing task by ID.
+Sample Payload: 
+{
+    "status": "open"
+}
+
 3. GET /api/tasks-> Retrieve a list of tasks with pagination support.
+Sample Endpoint:
+http://localhost:3000/api/tasks?page=2&totalPageSize=1
+  
 4. GET /api/tasks/:id-> Retrieve all details of a task with given ID.
+Pass id as query parameter
+
 5. GET /api/task-metrics: Retrieve task metrics based on status and timeline.
+Sample Payload:
+{
+    "startDate": "2023-01",
+    "endDate": "2024-12"
+}
+
 6. DELETE /api/tasks/:id: Delete a task by ID.
+Pass id as query parameter
 
 ## Security of API
 
